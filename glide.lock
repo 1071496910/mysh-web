@@ -1,0 +1,57 @@
+hash: 0ce240c90e526bf03b8cbe36b9f1d67aeb42806ce2605e2ad639b1a445bc7fef
+updated: 2018-12-21T17:40:43.223252502+08:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/inconshreveable/log15
+  version: 67afb5ed74ec82fd7ac8f49d27c509ac6f991970
+  subpackages:
+  - term
+- name: github.com/mattn/go-colorable
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/revel/config
+  version: a81c4105c36841d27e529f875b6062da7b8f986c
+- name: github.com/revel/log15
+  version: 793412a67da6f8d15fede4c38f5c66272478cb8a
+- name: github.com/revel/modules
+  version: a50f5f138880b68aef235a7c1f3f09ba56b71d45
+  subpackages:
+  - static/app/controllers
+  - static/app/model
+  - testrunner/app
+  - testrunner/app/controllers
+- name: github.com/revel/pathtree
+  version: 41257a1839e945fce74afd070e02bab2ea2c776a
+- name: github.com/revel/revel
+  version: a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e
+  subpackages:
+  - logger
+  - model
+  - session
+  - testing
+  - utils
+- name: github.com/twinj/uuid
+  version: 7bbe408d339787c56ec15568c947c0959db1b275
+- name: github.com/xeonx/timeago
+  version: f6470d57eb2e509dfe94b6fdcc9f10905d4be1f7
+- name: golang.org/x/net
+  version: 927f97764cc334a6575f4b7a1584a147864d5723
+  subpackages:
+  - websocket
+- name: golang.org/x/sys
+  version: 8ff4e546d48be377a38a3ab13ef2dd4dd8dce06a
+  subpackages:
+  - unix
+- name: google.golang.org/appengine
+  version: e9657d882bb81064595ca3b56cbe2546bbabf7b1
+  subpackages:
+  - cloudsql
+- name: gopkg.in/fsnotify/fsnotify.v1
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: gopkg.in/natefinch/lumberjack.v2
+  version: a96e63847dc3c67d17befa69c303767e2f84e54f
+- name: gopkg.in/stack.v0
+  version: 9b43fcefddd0178abdabf4d484ab0d695d0011db
+testImports: []
